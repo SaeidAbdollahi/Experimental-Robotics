@@ -1,6 +1,10 @@
 # Marker Detection using RosBot2 and OpenCV
-
-
+### Group Members:
+**Robotics Engineering, University of Genoa, Italy**
+- SaeidAbdollahi (@Saeed) 🆔:
+- Parinaz Ramezanpour (@ParinazRmp) 🆔:
+- Danial Sabzevari (@dssdanial) 🆔:
+  
 ## Table of Contents
 
 1. [Introduction](#marker-detection-using-rosbot2-and-opencv)
@@ -33,8 +37,8 @@
 
 
 #### ROSbot-2
-<p align="right">
-<img src="https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/32397445/b96396fc-8b48-4089-89c1-2e8954a8d37c" width="350" height="300" />
+<p align="center">
+<img src="resources/IMG_20231124_103921.jpg" width="450" height="300" />
 </p>
 
 ###### source: https://husarion.com/tutorials/howtostart/rosbot---quick-start/
@@ -143,7 +147,7 @@ The aruco_marker_publisher node seamlessly integrates with the robot logic by pr
 
 
 
-### 3-Rviz-Gazebo-Visualization
+### 3-Rviz-Gazebo-Simulation
 
 ### 4-Practical-tests-Connecting-ROSbot-to-network
 
@@ -194,11 +198,7 @@ ROS setup problems, potential errors in running the code, or common mistakes to 
 
 
 
-### Authors-&-Contact-Information
-**Robotics Engineering, University of Genoa, Italy**
-- SaeidAbdollahi (@Saeed) :email:
-- Parinaz Ramezanpour (@ParinazRmp) :email:
-- Danial Sabzevari (@dssdanial) :email:
+
 
 
 
