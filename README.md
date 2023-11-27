@@ -1,8 +1,3 @@
-
-
-
-
-
 ### ROSbot 2
 ![Alt text](image.png)
 
