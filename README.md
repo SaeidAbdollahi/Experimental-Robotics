@@ -43,16 +43,24 @@
 ## Our-Robot-Structure
 
 ### Code-Structure
-
+The pseudo code captures the structure and functionality of our algorithm, representing its various functions and logic flows within a more generalized syntax.
 - **markerInfoCallback():** Callback function to receive marker information.
 
 - **SearchMarker():** Function to search and locate the next marker.
+<p align="center">
+  
+<img src="https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/32397445/3ea6da92-57cc-4e2d-a134-9abc9dae7638" width="300" height="400" />
+</p>
 
 - **AdjustRobotDirection():** Method to align the robot with the detected marker.
 
 - **MoveRobotToMarker():** Function to move the robot towards the identified marker.
 
 - **validateMarker():** Validates if the detected marker matches the expected marker.
+
+<p align="center">
+<img src="https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/32397445/97720b56-2844-40e0-a850-a63a50a8bc6f" width="300" height="400" />
+</p>
 
 </br>
 
