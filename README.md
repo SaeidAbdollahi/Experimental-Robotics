@@ -14,15 +14,15 @@ This ROS node implements logic for a mobile robot to navigate through markers by
 #### Functionality
 The code orchestrates the following functionalities:
 
-1. **Marker Identification and Navigation Marker Identification:**
-It maintains a list of marker IDs to identify specific markers (markerList array).
-Searching for Markers: The robot rotates to locate the next marker by checking for marker IDs in the camera feed.
-Validating Markers: Once a marker is detected, it validates whether it matches the expected marker ID.
-Moving to Marker: Upon validation, the robot maneuvers towards the marker by adjusting its linear and angular speeds.
-Adjusting Direction: It adjusts its orientation to align with the marker for better accuracy.
+1. **Marker Identification and Navigation Marker Identification:** It maintains a list of marker IDs to identify specific markers (markerList array).
+- **Searching for Markers:** The robot rotates to locate the next marker by checking for marker IDs in the camera feed.
+- **Validating Markers:** Once a marker is detected, it validates whether it matches the expected marker ID.
+- **Moving to Marker:** Upon validation, the robot maneuvers towards the marker by adjusting its linear and angular speeds.
+- **Adjusting Direction:** It adjusts its orientation to align with the marker for better accuracy.
+  
 2. **Control and Status Flags Status Flags:** 
 
-    Several status flags (markerReached, reachAllowed, missionCompleted) control the robot's actions based on marker detection and navigation completion.
+- Several status flags (markerReached, reachAllowed, missionCompleted) control the robot's actions based on marker detection and navigation completion.
 
 
 ### Installation
