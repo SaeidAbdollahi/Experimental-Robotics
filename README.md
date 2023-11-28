@@ -4,19 +4,15 @@
 <img src="resources/IMG_20231124_103921.jpg" width="400" height="400" />
 </p>
 
-The Rosbot2 robot has to follow environment, with the robot starting in (0, 0), and find four markers in the environment, with IDs 11, 12, 13, and 15.
+The Rosbot2 robot has to follow the environment, with the robot starting in (0, 0), and find four markers in the environment, with IDs 11, 12, 13, and 15.
 The markers have the following meanings:
-- Marker 11 -> rotate until you find marker 12; then reach marker 12
-- Marker 12 -> rotate until you find marker 13; then reach marker 13
-- Marker 13 -> rotate until you find marker 15; then reach marker 15
+- Marker 11 -> Rotate until you find marker 12; then reach marker 12
+- Marker 12 -> Rotate until you find marker 13; then reach marker 13
+- Marker 13 -> Rotate until you find marker 15; then reach marker 15
 - Marker 15 -> done!
 
 
-### Group Members: 
-**Robotics Engineering, University of Genoa, Italy**
-- SaeidAbdollahi 🆔 ([@Saeed](https://github.com/SaeidAbdollahi)) 
-- Parinaz Ramezanpour 🆔 ([@ParinazRmp](https://github.com/ParinazRmp))
-- Danial Sabzevari 🆔 ([@dssdanial](https://github.com/dssdanial)) 
+
   
 ## Table of Contents
 
@@ -180,34 +176,8 @@ Working with the real robot, you can connect to your Rosbot by following this pr
 ### Running-the-Code
 
 ``` bash
- roslaunch XXXXXXXXXXXXXXXXXXXXXXXXXXX
+rosrun exp_assignmet1 robot_logic
 ```
-In another terminal:
-``` bash
-roslaunch rosbot_bringup XXXXXXXXXXXXX
-
-```
-In another terminal:
-``` bash
-roslaunch rosbot_bringup XXXXXXXXXXXXX
-
-```
-In another terminal:
-``` bash
-roslaunch rosbot_bringup XXXXXXXXXXXXX
-
-```
-
-After having launched the simulation, we can manually run the node for marker detection:
-```bash
-rosrun aruco_ros marker_publisher /image:=/robot/camera1/image_raw
-```
-You can also give a look to the topic:
-```bash
- /aruco_marker_publisher/result
- ```
- to check what is the effect of the ``aruco_marker_publisher``
-
 ### Possible-Improvements
 - **Enhanced Marker Detection:** 
 Implement advanced marker detection algorithms for faster and more accurate identification.
@@ -227,7 +197,11 @@ ROS setup problems, potential errors in running the code, or common mistakes to 
 
 
 
-
+### Group Members: 
+**Robotics Engineering, University of Genoa, Italy**
+- SaeidAbdollahi 🆔 ([@Saeed](https://github.com/SaeidAbdollahi)) 
+- Parinaz Ramezanpour 🆔 ([@ParinazRmp](https://github.com/ParinazRmp))
+- Danial Sabzevari 🆔 ([@dssdanial](https://github.com/dssdanial)) 
 
 
 
