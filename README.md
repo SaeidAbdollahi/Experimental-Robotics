@@ -14,9 +14,9 @@ The markers have the following meanings:
 
 ### Group Members: 
 **Robotics Engineering, University of Genoa, Italy**
-- SaeidAbdollahi (@Saeed) 🆔:
-- Parinaz Ramezanpour (@ParinazRmp) 🆔:
-- Danial Sabzevari (@dssdanial) 🆔:
+- SaeidAbdollahi 🆔 ([@Saeed](https://github.com/SaeidAbdollahi)) 
+- Parinaz Ramezanpour 🆔 ([@ParinazRmp](https://github.com/ParinazRmp))
+- Danial Sabzevari 🆔 ([@dssdanial](https://github.com/dssdanial)) 
   
 ## Table of Contents
 
