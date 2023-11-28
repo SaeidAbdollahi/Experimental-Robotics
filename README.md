@@ -4,6 +4,14 @@
 <img src="resources/IMG_20231124_103921.jpg" width="400" height="400" />
 </p>
 
+The Rosbot2 robot has to follow environment, with the robot starting in (0, 0), and find four markers in the environment, with IDs 11, 12, 13, and 15.
+The markers have the following meanings:
+- Marker 11 -> rotate until you find marker 12; then reach marker 12
+- Marker 12 -> rotate until you find marker 13; then reach marker 13
+- Marker 13 -> rotate until you find marker 15; then reach marker 15
+- Marker 15 -> done!
+
+
 ### Group Members: 
 **Robotics Engineering, University of Genoa, Italy**
 - SaeidAbdollahi (@Saeed) 🆔:
@@ -154,6 +162,10 @@ The aruco_marker_publisher node seamlessly integrates with the robot logic by pr
 
 ### 4-Practical-tests-Connecting-ROSbot-to-network
 
+Working with the real robot, you can connect to your Rosbot by following this procedure:
+-connect to the network TP_LINK 
+-login in ssh to husarion@<husarion_ip>    (192.168.1.xxx). 
+- you can turn on the graphical interface as indicated in: https://husarion.com/tutorials/howtostart/rosbot---quick-start/
 
 ### Installation
 
@@ -167,7 +179,24 @@ The aruco_marker_publisher node seamlessly integrates with the robot logic by pr
 
 ### Running-the-Code
 
+``` bash
+ roslaunch XXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+In another terminal:
+``` bash
+roslaunch rosbot_bringup XXXXXXXXXXXXX
 
+```
+In another terminal:
+``` bash
+roslaunch rosbot_bringup XXXXXXXXXXXXX
+
+```
+In another terminal:
+``` bash
+roslaunch rosbot_bringup XXXXXXXXXXXXX
+
+```
 
 After having launched the simulation, we can manually run the node for marker detection:
 ```bash
