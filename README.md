@@ -1,5 +1,10 @@
 # Marker Detection using RosBot2 and OpenCV
-### Group Members:
+
+<p align="center">
+<img src="resources/IMG_20231124_103921.jpg" width="400" height="400" />
+</p>
+
+### Group Members: 
 **Robotics Engineering, University of Genoa, Italy**
 - SaeidAbdollahi (@Saeed) 🆔:
 - Parinaz Ramezanpour (@ParinazRmp) 🆔:
@@ -37,9 +42,7 @@
 
 
 #### ROSbot-2
-<p align="center">
-<img src="resources/IMG_20231124_103921.jpg" width="450" height="300" />
-</p>
+
 
 ###### source: https://husarion.com/tutorials/howtostart/rosbot---quick-start/
 
