@@ -243,7 +243,7 @@ We sought to assess our knowledge and understanding of handling real data using 
 We aim to challenge the performance of the ArUco marker detection algorithms in various scenarios. This involves rotating the marker, adjusting the distance of the marker from close to far to assess the acceptable working range of the ArUco detector, and moving the marker to evaluate the performance of ArUco in detecting a moving marker.
 
 <p align="center">
- <a href="https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/aruco_test.mp4"><img src="./resources/aruco_test.gif" alt="Overview" width="50%" height="50%"></a>
+ <a href='https://youtu.be/gFV2UVKJbjI "aruco test"'><img src="./resources/aruco_test.gif" alt="Overview" width="50%" height="50%"></a>
  <br>(click for full video)
 </p>
 
