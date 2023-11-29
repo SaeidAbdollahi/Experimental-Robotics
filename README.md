@@ -243,8 +243,7 @@ We sought to assess our knowledge and understanding of handling real data using 
 We aim to challenge the performance of the ArUco marker detection algorithms in various scenarios. This involves rotating the marker, adjusting the distance of the marker from close to far to assess the acceptable working range of the ArUco detector, and moving the marker to evaluate the performance of ArUco in detecting a moving marker.
 
 <p align="center">
-<video width="900" height="500" autoplay loop controls>
-  <source src="resources/aruco_test.mp4" type="video/mp4">
+[![aruco_test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/89dd70ef-6fb9-4dbb-887c-2e8ec1948ee3)](https://youtu.be/oVlfOrViIAM "aruco test")
 </p>
 
 <a name="Step-4-Debugging-Our-Algorithm-and-Code"></a>
@@ -294,7 +293,7 @@ After successfully completing all the preceding steps, we conducted the final te
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-[![aruco_test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/89dd70ef-6fb9-4dbb-887c-2e8ec1948ee3)](https://youtu.be/oVlfOrViIAM "aruco test")
+
 [![behaviour_adjustment](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/65545720-6e4d-4621-8d98-0ae70c9a49a4)](https://youtu.be/b3NSfceo-vQ "behaviour adjustment")
 [![behaviour_main](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a56cc72e-0b9d-4d23-9fd9-726ccf4d11cb)](https://youtu.be/YmIL1JK67EQ "behaviour main")
 [![behaviour_move](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/ebed5e14-9761-4908-afc4-d9843224330b)](https://youtu.be/bx6J2JIGbF4 "behaviour move")
