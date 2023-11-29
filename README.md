@@ -52,7 +52,7 @@ Each marker contains a distinct QR code, encoding the subsequent instruction for
 
 We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its mission. The following images depict the pseudo-code of our algorithm:
 <p align="center">
-<img src="resources/behaviour_main.png" width="600" height="350" /> | <img src="./resources/behaviour_main.gif" alt="Overview" width="50%" height="50%"></a> 
+<img src="resources/behaviour_main.png" width="600" height="350" /> | <img src="./resources/behaviour_main.gif" alt="Overview" width="100%" height="100%"></a> 
 </p>
 
 <a name="1-The-Search-Behaviour"></a>
