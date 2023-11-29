@@ -59,7 +59,7 @@ We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its m
 The robot undergoes rotation to identify the next marker by inspecting marker IDs in the camera feed.
 
 <p align="center">
-<img src="resources/behaviour_search.png" width="900" height="600" /> | <img src="./resources/behaviour_search.gif" alt="Overview" width="100%" height="100%"> 
+<img src="resources/behaviour_search.png" width="900" height="600" />  <img src="./resources/behaviour_search.gif" alt="Overview" width="100%" height="100%"> 
 </p>
 
 <a name="2-The-Move-to-the-Marker-Behavior"></a>
