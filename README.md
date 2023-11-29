@@ -1,6 +1,6 @@
 # Exprimental Robotics Course-Assignmet 1
 
-<p style="text-align:right"> This marks the inaugural assignment of the Experimental Robotics course in the Robotics Engineering program at the University of Genoa. The primary objectives of this assignment include acquiring fundamental knowledge of robot geometric modeling using URDF, utilizing various sensors and plugins for simulating the robot in the Gazebo environment, grasping the basics of task image processing with OpenCV, incorporating external packages such as ArUco into our project, understanding the fundamentals of task planning, implementing behavior-based algorithms for a robot, and engaging in practical sessions to work with the real robot, Rosbot2.</p>
+This marks the inaugural assignment of the Experimental Robotics course in the Robotics Engineering program at the University of Genoa. The primary objectives of this assignment include acquiring fundamental knowledge of robot geometric modeling using URDF, utilizing various sensors and plugins for simulating the robot in the Gazebo environment, grasping the basics of task image processing with OpenCV, incorporating external packages such as ArUco into our project, understanding the fundamentals of task planning, implementing behavior-based algorithms for a robot, and engaging in practical sessions to work with the real robot, Rosbot2.
 
 ## Table of Contents
 
@@ -30,7 +30,6 @@
 9. [License](#License)
 
 <a name="Assignment-Description"></a>
-
 ## Assignment Description
 
 The Rosbot2 robot is tasked with accomplishing its mission, which involves locating a sequence of markers within the environment.
@@ -47,7 +46,6 @@ Each marker contains a distinct QR code, encoding the subsequent instruction for
 - Marker 15 -> Mission Competed!
 
 <a name="PART-1-The-Implemented-Algorithm"></a>
-
 ## PART 1-The Implemented Algorithm
 
 We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its mission. The following images depict the pseudo-code of our algorithm:
@@ -74,7 +72,6 @@ Upon successful validation, the robot navigates towards the marker by adjusting 
 </p>
 
 <a name="3-The-Adjusting-w.r-to-the-Marker-Behavior"></a>
-
 ### 3-The Adjusting w.r to the Marker Behavior:
 
 The robot fine-tunes its orientation to align with the marker, enhancing overall accuracy.
@@ -84,7 +81,6 @@ The robot fine-tunes its orientation to align with the marker, enhancing overall
 </p>
 
 <a name="PART-2-The-Code-Implementation-(C++)"></a>
-
 ## PART 2-The Code Implementation (C++) 
 
 The image below illustrates the rqt graph of the robot's software, displaying all active nodes and topics throughout the simulation.
@@ -94,7 +90,6 @@ The image below illustrates the rqt graph of the robot's software, displaying al
 </p>
 
 <a name="1-ROBOT-LOGIC-NODE"></a>
-
 - **1- ROBOT LOGIC NODE:**
 
 This ROS node implements logic for a mobile robot to navigate through markers by utilizing marker information received from the /marker_info topic. The robot's objective is to identify specific markers, move towards them, and align its orientation to match the markers.
@@ -122,21 +117,20 @@ This ROS node implements logic for a mobile robot to navigate through markers by
 `-markerInfoCallback():` Refresh the information pertaining to the detected marker.
 
 <a name="2-ArUco-MARKER-PUBLISHER-NODE"></a>
-
 - **2- ArUco MARKER PUBLISHER NODE:**
 
 The ArUco Marker Publisher Node is tasked with identifying ArUco markers in incoming camera images and disseminating marker information to the /marker_info topic. This node enhances the robot logic by offering real-time marker detection and pertinent marker data.
 
+### Functionality
+
 `-image_callback():` Receive the camera image from the Gazebo environment and employ the ArUco detector to process it, extracting information such as the marker's ID and size.
 
 <a name="3-Custom-Message"></a>
-
 - **3- Custom Message:**
 
 `exp_assignment1::MarkerInfo:` This message includes crucial information such as the marker ID, marker size, x and y coordinates of the detected marker in the image, as well as the width and height of the image captured by the sensor. This data is essential for the robot logic node to effectively navigate and interact with specific markers in its environment.
 
 <a name="PART-3-The-Robot-Description,-Gazebo-Plugins,-and-Sensors"></a>
-
 ## PART 3-The Robot Description, Gazebo Plugins, and Sensors
 
 For additional practice in robot modeling, we have modified the original model by eliminating the Kinect and laser scanner sensors. Instead, we have opted for a simplified approach, incorporating only a basic camera as the vision sensor for the robot.
@@ -156,11 +150,9 @@ The URDF folder encompasses all the necessary files that define the geometric mo
 - **rosbot.gazebo file:** Defines the Gazebo plugins and the specifications for the robot's sensors.
 
 <a name="PART-4-The-Gazebo-Simulation"></a>
-
 ## PART 4-The Gazebo Simulation
 
 <a name="Step-1-Prerequisite-and-Packages"></a>
-
 ### Step 1-Prerequisite and Packages:
 - ROS Noetic /ROS2 installed
 - vision_opencv
@@ -168,7 +160,6 @@ The URDF folder encompasses all the necessary files that define the geometric mo
 - robot_urdf (https://github.com/CarmineD8/robot_urdf)
 
 <a name="Step-2-How-to-Run-the-Simulation"></a>
-
 ### Step 2-How to Run the Simulation:
 
 Initially, execute the rosbot_gazebo.launch file to initialize the ROS nodes, Gazebo simulator, and RViz visualization tools:
@@ -208,7 +199,6 @@ We conducted practical experiments with our suggested algorithms on the Rosbot2 
 </p>
 
 <a name="Step-1-Running-the-Robot-Sensors-Drivers"></a>
-
 ### Step 1-Running the Robot Sensors Drivers:
 
 ``` bash
@@ -225,7 +215,6 @@ We sought to assess our knowledge and understanding of handling real data using 
 </p>
 
 <a name="Step-3-Evaluating-the-Performance-of-the-ArUco-Algorithm"></a>
-
 ### Step 3-Evaluating the Performance of the ArUco Algorithm:
 
 We aim to challenge the performance of the ArUco marker detection algorithms in various scenarios. This involves rotating the marker, adjusting the distance of the marker from close to far to assess the acceptable working range of the ArUco detector, and moving the marker to evaluate the performance of ArUco in detecting a moving marker.
@@ -262,7 +251,6 @@ After successfully completing all the preceding steps, we conducted the final te
   - **Enhance Vision Algorithms:** Instead of relying solely on the ArUco marker detector, leverage features provided by the OpenCV library to improve marker detection. For instance, incorporating a shape detector to identify the rectangular shape of the detected marker can serve as a backup if the ArUco marker detection fails, allowing for continued tracking based on shape informati
 
 <a name="Group-Members"></a>
-
 ## Group Members: 
 
 **Robotics Engineering, University of Genoa, Italy**
@@ -273,6 +261,5 @@ After successfully completing all the preceding steps, we conducted the final te
 - Ehsan Fatemi 🆔 ([@ehsan51](https://github.com/ehsan51)) 
 
 <a name="License"></a>
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
