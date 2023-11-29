@@ -204,7 +204,7 @@ rosrun exp_assignment1 robot_logic
 We conducted practical experiments with our suggested algorithms on the Rosbot2 robot, involving various steps. These steps included running the robot sensors drivers, testing different types of sensors such as the RGBD camera, and evaluating the performance of the ArUco algorithms in diverse scenarios. The experience proved to be highly valuable for our team.
 
 <p align="center">
-<img src="resources/Robot1.jpg" width="200" height="200" /> | <img src="resources/Robot2.jpg" width="200" height="200" /> | <img src="resources/Robot4.jpg" width="200" height="200"/> | <img src="resources/Robot3.jpg" width="200" height="200" />
+<img src="resources/Robot1.jpg" width="180" height="180" /> | <img src="resources/Robot2.jpg" width="180" height="180" /> | <img src="resources/Robot4.jpg" width="180" height="180"/> | <img src="resources/Robot3.jpg" width="180" height="180" />
 </p>
 
 <a name="Step-1-Running-the-Robot-Sensors-Drivers"></a>
