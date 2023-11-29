@@ -52,7 +52,7 @@ Each marker contains a distinct QR code, encoding the subsequent instruction for
 
 We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its mission. The following images depict the pseudo-code of our algorithm:
 <p align="center">
-<img src="resources/behaviour_main.png" width="600" height="350" />
+<img src="resources/behaviour_main.png" width="900" height="500" />
 </p>
 
 <a name="1-The-Search-Behaviour"></a>
@@ -70,7 +70,7 @@ The robot undergoes rotation to identify the next marker by inspecting marker ID
 Upon successful validation, the robot navigates towards the marker by adjusting its linear speeds.
 
 <p align="center">
-<img src="resources/behaviour_move.png" width="600" height="350" /> | <img src="./resources/behaviour_move.gif" alt="Overview" width="100%" height="100%"> 
+<img src="resources/behaviour_move.png" width="900" height="500" /> | <img src="./resources/behaviour_move.gif" alt="Overview" width="100%" height="100%"> 
 </p>
 
 <a name="3-The-Adjusting-w.r-to-the-Marker-Behavior"></a>
@@ -212,7 +212,6 @@ We conducted practical experiments with our suggested algorithms on the Rosbot2 
 ```
 
 <a name="Step-2-Testing-Different-Types-of-Sensors"></a>
-
 ### Step 2-Testing Different Types of Sensors:
 
 We sought to assess our knowledge and understanding of handling real data using tools like RViz, an excellent visualization tool in ROS. Our testing involved the examination of RGB data from the camera, as well as the depth image from the infrared sensor of the Kinect.
