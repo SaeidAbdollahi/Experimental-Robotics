@@ -253,7 +253,7 @@ After successfully completing all the preceding steps, we conducted the final te
 </p>
 
 <a name="PART-6-The-Suggestion-for-Improvment"></a>
-## PART 6-The Suggestion for Improvment
+## PART 6-Suggestions for Improvment
 
   - **Enhance the Search Strategy:** To address situations where the ArUco marker is lost due to its limitations, consider implementing a probabilistic model. This model can predict the potential location of the marker based on the previous direction and detected markers, enhancing the robustness of the search strategy.
 
