@@ -4,7 +4,7 @@ This marks the inaugural assignment of the Experimental Robotics course in the R
 
 ## Table of Contents
 
-1. [Assignment Description](#Assignment-Description)
+1. [Assignment Description](#marker-detection-using-rosbot2-and-opencv)
 2. [PART 1-The Implemented Algorithm](#1-robot-modelling-urdf-and-xacro)
     - [1-The Search Behaviour](#xacro-arguments-and-properties)
     - [2-The Move to the Marker Behavior](#materials-definition)
@@ -24,13 +24,12 @@ This marks the inaugural assignment of the Experimental Robotics course in the R
     - [Step 1-Running the Robot Sensors Drivers](#materials-definition)
     - [Step 2-Testing Different Types of Sensors](#robot-description)
     - [Step 3-Evaluating the Performance of the ArUco Algorithm](#gazebo-plugin-integration)
-    - [Step 4-Debugging Our Algorithm and Code](#gazebo-plugin-integration)
+    - [Step 4-Debugging Our Algorithm and the Code Implementation](#gazebo-plugin-integration)
     - [Step 5-Final Test](#gazebo-plugin-integration)
 7. [PART 6-The Suggestion for Improvment](#installation)
 8. [Group Members](#installation)
 9. [License](#installation)
 
-<a name="Assignment-Description"></a>
 ## Assignment Description
 
 The Rosbot2 robot is tasked with accomplishing its mission, which involves locating a sequence of markers within the environment.
@@ -214,16 +213,16 @@ We aim to challenge the performance of the ArUco marker detection algorithms in 
 
 <p align="center">
 <video width="900" height="500" autoplay loop controls>
-  <source src="https://drive.google.com/drive/folders/14hTcJTYBUtVnB4iHu9SUsptNcDiFhX_w?usp=drive_link/aruco_test.mp4" type="video/mp4">
+  <source src="resources/aruco_test.mp4" type="video/mp4">
 </p>
 
-### Step 4-Debugging Our Algorithm and Code:
+### Step 4-Debugging Our Algorithm and the Code Implementation:
 
 In a real implementation, we have the opportunity to debug our algorithms and calibrate code parameters according to real-world scenarios. For instance, we can fine-tune parameters like the size threshold that determines the proximity of the robot to the marker, the acceptable rotation speed during the search behavior to prevent the ArUco detector from missing the marker due to rapid rotation, and determining the safe linear speed of the robot within the lab environment, among other considerations.
 
 <p align="center">
 <video width="900" height="500" autoplay loop controls>
-  <source src="https://drive.google.com/file/d/1ibdZK_9RUS8sLQLjM08FwaTj8yfB4l72/view?usp=drive_link" type="video/mp4">
+  <source src="resources/code_debug.mp4" type="video/mp4">
 </p>
 
 ### Step 5-Final Test:
@@ -232,7 +231,7 @@ After successfully completing all the preceding steps, we conducted the final te
 
 <p align="center">
 <video width="900" height="500" autoplay loop controls>
-  <source src="https://www.youtube.com/watch?v=tBo0UcmB830" type="video/mp4">
+  <source src="resources/real_test.mp4" type="video/mp4">
 </p>
 
 ## PART 6-The Suggestion for Improvment
@@ -254,16 +253,4 @@ After successfully completing all the preceding steps, we conducted the final te
 - Ehsan Fatemi 🆔 ([@ehsan51](https://github.com/ehsan51)) 
 
 ## License
- [<img src="https://user-images.githubusercontent.com/80394968/225696252-1b7553b1-51a6-4ace-8c4e-b7bf9dc12fa6.png" width="500" />](https://www.youtube.com/watch?v=D4NZMkakPdE) [<img src="https://user-images.githubusercontent.com/80394968/225696507-a73ece7d-89cf-4a22-8a66-c3a56e318056.png" width="500" />](https://www.youtube.com/watch?v=k1UbBzUEn0Q)
- 
- [<img src="https://user-images.githubusercontent.com/80394968/225696632-f0b70127-9177-4067-b8c2-08955a09fdb2.png" width="1000" />](https://www.youtube.com/watch?v=AYfGL6Nv204)
- 
- [<img src="https://user-images.githubusercontent.com/80394968/225697151-844ba5f8-6f1f-498b-a9e1-f79e76b75f47.png" width="500" />](https://www.youtube.com/watch?v=8gIlud9cLgk) [<img src="https://user-images.githubusercontent.com/80394968/225697337-d69e8cab-a4eb-4032-aa9e-7114f935bf27.png" width="500" />](https://www.youtube.com/watch?v=48NEy4a8zlc)
-
-
-
-
-
-
-
-
+This project is licensed under the MIT License - see the LICENSE file for details.
