@@ -264,7 +264,7 @@ In a real implementation, we have the opportunity to debug our algorithms and ca
 
 After successfully completing all the preceding steps, we conducted the final test of our algorithms. The Rosbot2 robot navigated smoothly in the environment, exhibiting the expected behaviors based on our algorithms. The robot successfully accomplished its task.
 
-[![real test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a6d74fd0-b512-4bdd-8b4f-92605def22e2)](https://youtu.be/gFV2UVKJbjI "real test")
+[![real test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a6d74fd0-b512-4bdd-8b4f-92605def22e2)](https://youtu.be/gFV2UVKJbjI "real test")[![Aruco simulation test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/300d1110-9783-4aba-aec2-503e2ee22686)](https://youtu.be/U5dgeoAvPlA "Aruco simulation test")
 
 
 <a name="PART-6-The-Suggestion-for-Improvment"></a>
@@ -293,7 +293,7 @@ After successfully completing all the preceding steps, we conducted the final te
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-[![Aruco simulation test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/300d1110-9783-4aba-aec2-503e2ee22686)](https://youtu.be/U5dgeoAvPlA "Aruco simulation test")
+
 [![aruco_test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/89dd70ef-6fb9-4dbb-887c-2e8ec1948ee3)](https://youtu.be/oVlfOrViIAM "aruco test")
 [![behaviour_adjustment](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/65545720-6e4d-4621-8d98-0ae70c9a49a4)](https://youtu.be/b3NSfceo-vQ "behaviour adjustment")
 [![behaviour_main](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a56cc72e-0b9d-4d23-9fd9-726ccf4d11cb)](https://youtu.be/YmIL1JK67EQ "behaviour main")
