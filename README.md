@@ -136,7 +136,7 @@ The ArUco Marker Publisher Node is tasked with identifying ArUco markers in inco
 For additional practice in robot modeling, we have modified the original model by eliminating the Kinect and laser scanner sensors. Instead, we have opted for a simplified approach, incorporating only a basic camera as the vision sensor for the robot.
 
 <p align="center">
-<img src="resources/robot_model.png" width="450" height="300" />
+<img src="resources/robot_model.png" width="900" height="500" />
 </p>
 
 The URDF folder encompasses all the necessary files that define the geometric model of the robot, along with Gazebo plugins and the specifications for the robot's sensors.
