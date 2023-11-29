@@ -263,11 +263,12 @@ In a real implementation, we have the opportunity to debug our algorithms and ca
 
 After successfully completing all the preceding steps, we conducted the final test of our algorithms. The Rosbot2 robot navigated smoothly in the environment, exhibiting the expected behaviors based on our algorithms. The robot successfully accomplished its task.
 
-[![real test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a6d74fd0-b512-4bdd-8b4f-92605def22e2)](https://youtu.be/gFV2UVKJbjI "real test")[![Aruco simulation test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/300d1110-9783-4aba-aec2-503e2ee22686)](https://youtu.be/U5dgeoAvPlA "Aruco simulation test")
-
+<p align="center">
+ <a href="[https://www.youtube.com/watch?v=g5BhDtoheE4](https://youtu.be/gFV2UVKJbjI "real test")"><img src="./img/overview.gif" alt="Overview" width="50%" height="50%"></a>
+ <br>Qualitative results. (click for full video)
+</p>
 
 <a name="PART-6-The-Suggestion-for-Improvment"></a>
-    
 ## PART 6-The Suggestion for Improvment
 
   - **Enhance the Search Strategy:** To address situations where the ArUco marker is lost due to its limitations, consider implementing a probabilistic model. This model can predict the potential location of the marker based on the previous direction and detected markers, enhancing the robustness of the search strategy.
