@@ -249,7 +249,7 @@ After successfully completing all the preceding steps, we conducted the final te
 
   - **Upgrade High-Level Logic:** Integrate a task planner algorithm to manage ongoing tasks effectively. Additionally, implement a path planner to suggest optimal waypoints for the robot, enhancing its navigation efficiency between markers.
 
-  - **Enhance Vision Algorithms:** Instead of relying solely on the ArUco marker detector, leverage features provided by the OpenCV library to improve marker detection. For instance, incorporating a shape detector to identify the rectangular shape of the detected marker can serve as a backup if the ArUco marker detection fails, allowing for continued tracking based on shape informati
+  - **Enhance Vision Algorithms:** Instead of relying solely on the ArUco marker detector, leverage features provided by the OpenCV library to improve marker detection. For instance, incorporating a shape detector to identify the rectangular shape of the detected marker can serve as a backup if the ArUco marker detection fails, allowing for continued tracking based on shape information.
 
 <a name="Group-Members"></a>
 ## Group Members: 
