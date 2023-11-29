@@ -255,7 +255,7 @@ After successfully completing all the preceding steps, we conducted the final te
 ## Group Members: 
 
 **Robotics Engineering, University of Genoa, Italy**
-- SaeidAbdollahi 🆔 ([@Saeed](https://github.com/SaeidAbdollahi)) 
+- Saeed Abdollahi 🆔 ([@Saeed](https://github.com/SaeidAbdollahi)) 
 - Parinaz Ramezanpour 🆔 ([@ParinazRmp](https://github.com/ParinazRmp))
 - Danial Sabzevari 🆔 ([@dssdanial](https://github.com/dssdanial)) 
 - Amir Rad 🆔 ([@AmirRad1998](https://github.com/AmirRad1998)) 
