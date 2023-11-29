@@ -242,12 +242,17 @@ We sought to assess our knowledge and understanding of handling real data using 
 
 We aim to challenge the performance of the ArUco marker detection algorithms in various scenarios. This involves rotating the marker, adjusting the distance of the marker from close to far to assess the acceptable working range of the ArUco detector, and moving the marker to evaluate the performance of ArUco in detecting a moving marker.
 
+<p align="center">
+  <a href="[https://www.youtube.com/watch?v=g5BhDtoheE4](https://youtu.be/gFV2UVKJbjI "real test")"><img src="./resources/robot_model.png" alt="Overview" width="50%" height="50%"></a>
+ <br>Qualitative results. (click for full video)
+</p>
 
-[![aruco_test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/89dd70ef-6fb9-4dbb-887c-2e8ec1948ee3)](https://youtu.be/oVlfOrViIAM "aruco test")
-
+<p align="center">
+ <a href='https://youtu.be/oVlfOrViIAM "aruco test"'><img src="./resources/aruco_test.gif" alt="Overview" width="50%" height="50%"></a>
+ <br>Qualitative results. (click for full video)
+</p>
 
 <a name="Step-4-Debugging-Our-Algorithm-and-Code"></a>
-
 ### Step 4-Debugging Our Algorithm and the Code Implementation:
 
 In a real implementation, we have the opportunity to debug our algorithms and calibrate code parameters according to real-world scenarios. For instance, we can fine-tune parameters like the size threshold that determines the proximity of the robot to the marker, the acceptable rotation speed during the search behavior to prevent the ArUco detector from missing the marker due to rapid rotation, and determining the safe linear speed of the robot within the lab environment, among other considerations.
