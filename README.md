@@ -52,10 +52,7 @@ Each marker contains a distinct QR code, encoding the subsequent instruction for
 
 We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its mission. The following images depict the pseudo-code of our algorithm:
 <p align="center">
-<img src="resources/behaviour_main.png" width="600" height="350" /> | <video width="500" height="400" autoplay loop controls>
-  <source src="resources/behaviour_main.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="resources/behaviour_main.png" width="600" height="350" /> | <img src="./resources/behaviour_main.png" alt="Overview" width="50%" height="50%"></a> 
 </p>
 
 <a name="1-The-Search-Behaviour"></a>
@@ -210,7 +207,6 @@ rosrun exp_assignment1 robot_logic
 <a name="PART-5-The-Real-Implementation-on-Rosbot2-Robot"></a>
 
 ## PART 5-The Real Implementation on Rosbot2 Robot
-
 
 We conducted practical experiments with our suggested algorithms on the Rosbot2 robot, involving various steps. These steps included running the robot sensors drivers, testing different types of sensors such as the RGBD camera, and evaluating the performance of the ArUco algorithms in diverse scenarios. The experience proved to be highly valuable for our team.
 
