@@ -25,7 +25,7 @@ This marks the inaugural assignment of the Experimental Robotics course in the R
     - [Step 3-Evaluating the Performance of the ArUco Algorithm](#Step-3-Evaluating-the-Performance-of-the-ArUco-Algorithm)
     - [Step 4-Debugging Our Algorithm and Code](#Step-4-Debugging-Our-Algorithm-and-Code)
     - [Step 5-Final Test](#Step-5-Final-Test)
-7. [PART 6-The Suggestion for Improvment](#PART-6-The-Suggestion-for-Improvment)
+7. [PART 6-Suggestions for Improvment](#PART-6-The-Suggestion-for-Improvment)
 8. [Group Members](#Group-Members)
 9. [License](#License)
 
