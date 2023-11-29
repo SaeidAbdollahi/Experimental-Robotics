@@ -252,7 +252,7 @@ We aim to challenge the performance of the ArUco marker detection algorithms in 
 In a real implementation, we have the opportunity to debug our algorithms and calibrate code parameters according to real-world scenarios. For instance, we can fine-tune parameters like the size threshold that determines the proximity of the robot to the marker, the acceptable rotation speed during the search behavior to prevent the ArUco detector from missing the marker due to rapid rotation, and determining the safe linear speed of the robot within the lab environment, among other considerations.
 
 <p align="center">
- <img src="./resources/aruco_test.gif" alt="Overview" width="100%" height="100%"></a>
+ <img src="./resources/code_debug.gif" alt="Overview" width="100%" height="100%"></a>
 </p>
 
 
