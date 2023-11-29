@@ -4,31 +4,32 @@ This marks the inaugural assignment of the Experimental Robotics course in the R
 
 ## Table of Contents
 
-1. [Assignment Description](#marker-detection-using-rosbot2-and-opencv)
-2. [PART 1-The Implemented Algorithm](#1-robot-modelling-urdf-and-xacro)
-    - [1-The Search Behaviour](#xacro-arguments-and-properties)
-    - [2-The Move to the Marker Behavior](#materials-definition)
-    - [3-The Adjusting w.r to the Marker Behavior](#robot-description)
-    - [Gazebo Plugin Integration](#gazebo-plugin-integration)
+1. [Assignment Description](#Assignment-Description)
+2. [PART 1-The Implemented Algorithm](#PART-1-The-Implemented-Algorithm)
+    - [1-The Search Behaviour](#1-The-Search-Behaviour)
+    - [2-The Move to the Marker Behavior](#2-The-Move-to-the-Marker-Behavior)
+    - [3-The Adjusting w.r to the Marker Behavior](#3-The-Adjusting-w.r-to-the-Marker-Behavior)
 
-3. [PART 2-The Code Implementation (C++)](#2-robot-logic-ros-node)
-    - [1-ROBOT LOGIC NODE](#materials-definition)
-    - [2-ArUco MARKER PUBLISHER NODE](#robot-description)
-    - [3-Custom Message](#gazebo-plugin-integration)
+3. [PART 2-The Code Implementation (C++)](#PART-2-The-Code-Implementation-(C++))
+    - [1-ROBOT LOGIC NODE](#1-ROBOT-LOGIC-NODE)
+    - [2-ArUco MARKER PUBLISHER NODE](#2-ArUco-MARKER-PUBLISHER-NODE)
+    - [3-Custom Message](#3-Custom-Message)
 
-4. [PART 3-The Robot Description, Gazebo Plugins, and Sensors](#3-aruco-marker-marker_node)
-5. [PART 4-The Gazebo Simulation](#3-rviz-gazebo-visualization)
-    - [Step 1-Prerequisite and Packages](#materials-definition)
-    - [Step 2-How to Run the Simulation](#robot-description)
-6. [PART 5-The Real Implementation on Rosbot2 Robot](#4-practical-tests-connecting-rosbot-to-your-wi-fi-network)
-    - [Step 1-Running the Robot Sensors Drivers](#materials-definition)
-    - [Step 2-Testing Different Types of Sensors](#robot-description)
-    - [Step 3-Evaluating the Performance of the ArUco Algorithm](#gazebo-plugin-integration)
-    - [Step 4-Debugging Our Algorithm and the Code Implementation](#gazebo-plugin-integration)
-    - [Step 5-Final Test](#gazebo-plugin-integration)
-7. [PART 6-The Suggestion for Improvment](#installation)
-8. [Group Members](#installation)
-9. [License](#installation)
+4. [PART 3-The Robot Description, Gazebo Plugins, and Sensors](#PART-3-The-Robot-Description,-Gazebo-Plugins,-and-Sensors)
+5. [PART 4-The Gazebo Simulation](#PART-4-The-Gazebo-Simulation)
+    - [Step 1-Prerequisite and Packages](#Step-1-Prerequisite-and-Packages)
+    - [Step 2-How to Run the Simulation](#Step-2-How-to-Run-the-Simulation)
+6. [PART 5-The Real Implementation on Rosbot2 Robot](#PART-5-The-Real-Implementation-on-Rosbot2-Robot)
+    - [Step 1-Running the Robot Sensors Drivers](#Step-1-Running-the-Robot-Sensors-Drivers)
+    - [Step 2-Testing Different Types of Sensors](#Step-2-Testing-Different-Types-of-Sensors)
+    - [Step 3-Evaluating the Performance of the ArUco Algorithm](#Step-3-Evaluating-the-Performance-of-the-ArUco-Algorithm)
+    - [Step 4-Debugging Our Algorithm and Code](#Step-4-Debugging-Our-Algorithm-and-Code)
+    - [Step 5-Final Test](#Step-5-Final-Test)
+7. [PART 6-The Suggestion for Improvment](#PART-6-The-Suggestion-for-Improvment)
+8. [Group Members](#Group-Members)
+9. [License](#License)
+
+<a name="Assignment-Description"></a>
 
 ## Assignment Description
 
