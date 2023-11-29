@@ -193,8 +193,12 @@ This command executes the robot's logic node, which contains our suggested algor
 ``` bash
 rosrun exp_assignment1 robot_logic
 ```
-<a name="PART-5-The-Real-Implementation-on-Rosbot2-Robot"></a>
 
+<p align="center">
+ <img src="./resources/simulation_test.gif" alt="Overview" width="100%" height="100%"></a>
+</p>
+
+<a name="PART-5-The-Real-Implementation-on-Rosbot2-Robot"></a>
 ## PART 5-The Real Implementation on Rosbot2 Robot
 
 We conducted practical experiments with our suggested algorithms on the Rosbot2 robot, involving various steps. These steps included running the robot sensors drivers, testing different types of sensors such as the RGBD camera, and evaluating the performance of the ArUco algorithms in diverse scenarios. The experience proved to be highly valuable for our team.
