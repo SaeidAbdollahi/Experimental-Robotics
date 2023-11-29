@@ -296,5 +296,4 @@ https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/real
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
- [<img src="https://user-images.githubusercontent.com/80394968/225696252-1b7553b1-51a6-4ace-8c4e-b7bf9dc12fa6.png" width="500" />]([https://www.youtube.com/watch?v=D4NZMkakPd](https://youtu.be/g3jweVqVL4E)https://youtu.be/g3jweVqVL4EE) 
+ [<img src="https://user-images.githubusercontent.com/80394968/225696252-1b7553b1-51a6-4ace-8c4e-b7bf9dc12fa6.png" width="500" />](https://www.youtube.com/watch?v=D4NZMkakPdE) 
