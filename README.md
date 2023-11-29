@@ -52,33 +52,25 @@ Each marker contains a distinct QR code, encoding the subsequent instruction for
 
 We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its mission. The following images depict the pseudo-code of our algorithm:
 <p align="center">
-<img src="resources/behaviour_main.png" width="600" height="350" /> | <img src="./resources/behaviour_main.gif" alt="Overview" width="100%" height="100%"> 
+<img src="resources/behaviour_main.png" width="600" height="350" />
 </p>
 
 <a name="1-The-Search-Behaviour"></a>
-
 ### 1-The Search Behaviour:
 
 The robot undergoes rotation to identify the next marker by inspecting marker IDs in the camera feed.
 
 <p align="center">
-<img src="resources/behaviour_search.png" width="600" height="350" /> | <video width="500" height="400" autoplay loop controls>
-  <source src="resources/behaviour_search.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="resources/behaviour_search.png" width="600" height="350" /> | <img src="./resources/behaviour_search.gif" alt="Overview" width="100%" height="100%"> 
 </p>
 
 <a name="2-The-Move-to-the-Marker-Behavior"></a>
-
 ### 2-The Move to the Marker Behavior:
 
 Upon successful validation, the robot navigates towards the marker by adjusting its linear speeds.
 
 <p align="center">
-<img src="resources/behaviour_move.png" width="600" height="350" /> | <video width="500" height="400" autoplay loop controls>
-  <source src="resources/behaviour_move.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="resources/behaviour_move.png" width="600" height="350" /> | <img src="./resources/behaviour_move.gif" alt="Overview" width="100%" height="100%"> 
 </p>
 
 <a name="3-The-Adjusting-w.r-to-the-Marker-Behavior"></a>
@@ -88,10 +80,7 @@ Upon successful validation, the robot navigates towards the marker by adjusting 
 The robot fine-tunes its orientation to align with the marker, enhancing overall accuracy.
 
 <p align="center">
-<img src="resources/behaviour_adjustment.png" width="600" height="350" /> | <video width="500" height="400" autoplay loop controls>
-  <source src="resources/behaviour_adjustment.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="resources/behaviour_adjustment.png" width="600" height="350" /> | <img src="./resources/behaviour_adjustment.gif" alt="Overview" width="100%" height="100%"> 
 </p>
 
 <a name="PART-2-The-Code-Implementation-(C++)"></a>
