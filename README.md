@@ -230,9 +230,11 @@ In a real implementation, we have the opportunity to debug our algorithms and ca
 After successfully completing all the preceding steps, we conducted the final test of our algorithms. The Rosbot2 robot navigated smoothly in the environment, exhibiting the expected behaviors based on our algorithms. The robot successfully accomplished its task.
 
 <p align="center">
-<video width="900" height="500" autoplay loop controls>
-  <source src="https://drive.google.com/file/d/1YLYZPhHJe7DK34a40Tl2FuHS0GCThdDq/view?usp=sharing" type="video/mp4">
+
+<iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1YLYZPhHJe7DK34a40Tl2FuHS0GCThdDq/preview" ></iframe>
 </p>
+
+
 
 ## PART 6-The Suggestion for Improvment
 
@@ -242,7 +244,7 @@ After successfully completing all the preceding steps, we conducted the final te
 
   - **Enhance Vision Algorithms:** Instead of relying solely on the ArUco marker detector, leverage features provided by the OpenCV library to improve marker detection. For instance, incorporating a shape detector to identify the rectangular shape of the detected marker can serve as a backup if the ArUco marker detection fails, allowing for continued tracking based on shape informati
 
-https://drive.google.com/file/d/1cxnR-jijWa6jTXmROie7xK3wRwBHrilB/view?usp=drive_link
+
 ## Group Members: 
 
 **Robotics Engineering, University of Genoa, Italy**
@@ -254,3 +256,10 @@ https://drive.google.com/file/d/1cxnR-jijWa6jTXmROie7xK3wRwBHrilB/view?usp=drive
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+
+
