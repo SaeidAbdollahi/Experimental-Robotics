@@ -243,8 +243,7 @@ We sought to assess our knowledge and understanding of handling real data using 
 We aim to challenge the performance of the ArUco marker detection algorithms in various scenarios. This involves rotating the marker, adjusting the distance of the marker from close to far to assess the acceptable working range of the ArUco detector, and moving the marker to evaluate the performance of ArUco in detecting a moving marker.
 
 <p align="center">
- <a href='https://youtu.be/gFV2UVKJbjI "aruco test"'><img src="./resources/aruco_test.gif" alt="Overview" width="100%" height="100%"></a>
- <br>(click for full video)
+ <img src="./resources/aruco_test.gif" alt="Overview" width="100%" height="100%"></a>
 </p>
 
 <a name="Step-4-Debugging-Our-Algorithm-and-Code"></a>
@@ -253,12 +252,11 @@ We aim to challenge the performance of the ArUco marker detection algorithms in 
 In a real implementation, we have the opportunity to debug our algorithms and calibrate code parameters according to real-world scenarios. For instance, we can fine-tune parameters like the size threshold that determines the proximity of the robot to the marker, the acceptable rotation speed during the search behavior to prevent the ArUco detector from missing the marker due to rapid rotation, and determining the safe linear speed of the robot within the lab environment, among other considerations.
 
 <p align="center">
-<video width="900" height="500" autoplay loop controls>
-  <source src="resources/code_debug.mp4" type="video/mp4">
+ <img src="./resources/aruco_test.gif" alt="Overview" width="100%" height="100%"></a>
 </p>
 
-<a name="Step-5-Final-Test"></a>
 
+<a name="Step-5-Final-Test"></a>
 ### Step 5-Final Test:
 
 After successfully completing all the preceding steps, we conducted the final test of our algorithms. The Rosbot2 robot navigated smoothly in the environment, exhibiting the expected behaviors based on our algorithms. The robot successfully accomplished its task.
