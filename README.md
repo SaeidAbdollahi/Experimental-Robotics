@@ -46,6 +46,8 @@ Each marker contains a distinct QR code, encoding the subsequent instruction for
 - Marker 13 -> rotate until you find marker 15; then reach marker 15,
 - Marker 15 -> Mission Competed!
 
+<a name="PART-1-The-Implemented-Algorithm"></a>
+
 ## PART 1-The Implemented Algorithm
 
 We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its mission. The following images depict the pseudo-code of our algorithm:
@@ -55,6 +57,8 @@ We designed a behavior-based algorithm to assist the Rosbot2 in fulfilling its m
   Your browser does not support the video tag.
 </video>
 </p>
+
+<a name="1-The-Search-Behaviour"></a>
 
 ### 1-The Search Behaviour:
 
@@ -67,6 +71,8 @@ The robot undergoes rotation to identify the next marker by inspecting marker ID
 </video>
 </p>
 
+<a name="2-The-Move-to-the-Marker-Behavior"></a>
+
 ### 2-The Move to the Marker Behavior:
 
 Upon successful validation, the robot navigates towards the marker by adjusting its linear speeds.
@@ -77,6 +83,8 @@ Upon successful validation, the robot navigates towards the marker by adjusting 
   Your browser does not support the video tag.
 </video>
 </p>
+
+<a name="3-The-Adjusting-w.r-to-the-Marker-Behavior"></a>
 
 ### 3-The Adjusting w.r to the Marker Behavior:
 
@@ -89,6 +97,8 @@ The robot fine-tunes its orientation to align with the marker, enhancing overall
 </video>
 </p>
 
+<a name="PART-2-The-Code-Implementation-(C++)"></a>
+
 ## PART 2-The Code Implementation (C++) 
 
 The image below illustrates the rqt graph of the robot's software, displaying all active nodes and topics throughout the simulation.
@@ -97,7 +107,9 @@ The image below illustrates the rqt graph of the robot's software, displaying al
 <img src="resources/rqt.png" width="900" height="600" />
 </p>
 
-- **ROBOT LOGIC NODE:**
+<a name="ROBOT-LOGIC-NODE"></a>
+
+- **1- ROBOT LOGIC NODE:**
 
 This ROS node implements logic for a mobile robot to navigate through markers by utilizing marker information received from the /marker_info topic. The robot's objective is to identify specific markers, move towards them, and align its orientation to match the markers.
 
@@ -123,16 +135,21 @@ This ROS node implements logic for a mobile robot to navigate through markers by
 
 `-markerInfoCallback():` Refresh the information pertaining to the detected marker.
 
+<a name="2-ArUco-MARKER-PUBLISHER-NODE"></a>
 
-- **ArUco MARKER PUBLISHER NODE:**
+- **2- ArUco MARKER PUBLISHER NODE:**
 
 The ArUco Marker Publisher Node is tasked with identifying ArUco markers in incoming camera images and disseminating marker information to the /marker_info topic. This node enhances the robot logic by offering real-time marker detection and pertinent marker data.
 
 `-image_callback():` Receive the camera image from the Gazebo environment and employ the ArUco detector to process it, extracting information such as the marker's ID and size.
 
+<a name="3-Custom-Message"></a>
+
 - **Custom Message:**
 
 `exp_assignment1::MarkerInfo:` This message includes crucial information such as the marker ID, marker size, x and y coordinates of the detected marker in the image, as well as the width and height of the image captured by the sensor. This data is essential for the robot logic node to effectively navigate and interact with specific markers in its environment.
+
+<a name="PART-3-The-Robot-Description,-Gazebo-Plugins,-and-Sensors"></a>
 
 ## PART 3-The Robot Description, Gazebo Plugins, and Sensors
 
@@ -151,14 +168,20 @@ The URDF folder encompasses all the necessary files that define the geometric mo
 - **materials.xacro file:** Specifies the materials utilized in the Gazebo simulation..
 
 - **rosbot.gazebo file:** Defines the Gazebo plugins and the specifications for the robot's sensors.
-  
+
+<a name="PART-4-The-Gazebo-Simulation"></a>
+
 ## PART 4-The Gazebo Simulation
+
+<a name="Step-1-Prerequisite-and-Packages"></a>
 
 ### Step 1-Prerequisite and Packages:
 - ROS Noetic /ROS2 installed
 - vision_opencv
 - aruco_ros (https://github.com/CarmineD8/aruco_ros) (https://github.com/pal-robotics/aruco_ros/tree/melodic-devel)
 - robot_urdf (https://github.com/CarmineD8/robot_urdf)
+
+<a name="Step-2-How-to-Run-the-Simulation"></a>
 
 ### Step 2-How to Run the Simulation:
 
@@ -184,6 +207,7 @@ This command executes the robot's logic node, which contains our suggested algor
 ``` bash
 rosrun exp_assignment1 robot_logic
 ```
+<a name="PART-5-The-Real-Implementation-on-Rosbot2-Robot"></a>
 
 ## PART 5-The Real Implementation on Rosbot2 Robot
 
@@ -194,11 +218,15 @@ We conducted practical experiments with our suggested algorithms on the Rosbot2 
 <img src="resources/Robot1.jpg" width="200" height="200" /> | <img src="resources/Robot2.jpg" width="200" height="200" /> | <img src="resources/Robot4.jpg" width="200" height="200"/> | <img src="resources/Robot3.jpg" width="200" height="200" />
 </p>
 
+<a name="Step-1-Running-the-Robot-Sensors-Drivers"></a>
+
 ### Step 1-Running the Robot Sensors Drivers:
 
 ``` bash
  roslaunch tutorial_pkgall.launch
 ```
+
+<a name="Step-2-Testing-Different-Types-of-Sensors"></a>
 
 ### Step 2-Testing Different Types of Sensors:
 
@@ -207,6 +235,8 @@ We sought to assess our knowledge and understanding of handling real data using 
 <p align="center">
 <img src="resources/sensor_test.jpg" width="900" height="500" /> 
 </p>
+
+<a name="Step-3-Evaluating-the-Performance-of-the-ArUco-Algorithm"></a>
 
 ### Step 3-Evaluating the Performance of the ArUco Algorithm:
 
@@ -217,6 +247,8 @@ We aim to challenge the performance of the ArUco marker detection algorithms in 
   <source src="resources/aruco_test.mp4" type="video/mp4">
 </p>
 
+<a name="Step-4-Debugging-Our-Algorithm-and-Code"></a>
+
 ### Step 4-Debugging Our Algorithm and the Code Implementation:
 
 In a real implementation, we have the opportunity to debug our algorithms and calibrate code parameters according to real-world scenarios. For instance, we can fine-tune parameters like the size threshold that determines the proximity of the robot to the marker, the acceptable rotation speed during the search behavior to prevent the ArUco detector from missing the marker due to rapid rotation, and determining the safe linear speed of the robot within the lab environment, among other considerations.
@@ -225,6 +257,8 @@ In a real implementation, we have the opportunity to debug our algorithms and ca
 <video width="900" height="500" autoplay loop controls>
   <source src="resources/code_debug.mp4" type="video/mp4">
 </p>
+
+<a name="Step-5-Final-Test"></a>
 
 ### Step 5-Final Test:
 
@@ -235,6 +269,9 @@ After successfully completing all the preceding steps, we conducted the final te
   <source src="resources/real_test.mp4" type="video/mp4">
 </p>
 https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/real_test.mp4
+
+<a name="PART-6-The-Suggestion-for-Improvment"></a>
+    
 ## PART 6-The Suggestion for Improvment
 
   - **Enhance the Search Strategy:** To address situations where the ArUco marker is lost due to its limitations, consider implementing a probabilistic model. This model can predict the potential location of the marker based on the previous direction and detected markers, enhancing the robustness of the search strategy.
@@ -243,6 +280,7 @@ https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/real
 
   - **Enhance Vision Algorithms:** Instead of relying solely on the ArUco marker detector, leverage features provided by the OpenCV library to improve marker detection. For instance, incorporating a shape detector to identify the rectangular shape of the detected marker can serve as a backup if the ArUco marker detection fails, allowing for continued tracking based on shape informati
 
+<a name="Group-Members"></a>
 
 ## Group Members: 
 
@@ -252,6 +290,8 @@ https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/real
 - Danial Sabzevari 🆔 ([@dssdanial](https://github.com/dssdanial)) 
 - Amir Rad 🆔 ([@AmirRad1998](https://github.com/AmirRad1998)) 
 - Ehsan Fatemi 🆔 ([@ehsan51](https://github.com/ehsan51)) 
+
+<a name="License"></a>
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
