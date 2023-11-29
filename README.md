@@ -296,10 +296,8 @@ https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/real
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
- [<img src="https://user-images.githubusercontent.com/80394968/225696252-1b7553b1-51a6-4ace-8c4e-b7bf9dc12fa6.png" width="500" />](https://www.youtube.com/watch?v=D4NZMkakPdE) [<img src="https://user-images.githubusercontent.com/80394968/225696507-a73ece7d-89cf-4a22-8a66-c3a56e318056.png" width="500" />](https://www.youtube.com/watch?v=k1UbBzUEn0Q)
-
- 
-
- 
-[![sim test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/cea53fbd-2e46-4dd7-a6ce-62171efd82f5)](https://youtu.be/3Vk3hmGav4U "Aruco real test")
+[![Aruco simulation test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/300d1110-9783-4aba-aec2-503e2ee22686)](https://youtu.be/U5dgeoAvPlA "Aruco simulation test")
+[![aruco_test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/89dd70ef-6fb9-4dbb-887c-2e8ec1948ee3)](https://youtu.be/oVlfOrViIAM "aruco test")
+[![behaviour_adjustment](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/65545720-6e4d-4621-8d98-0ae70c9a49a4)](https://youtu.be/b3NSfceo-vQ "behaviour adjustment")
+[![behaviour_main](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a56cc72e-0b9d-4d23-9fd9-726ccf4d11cb)](https://youtu.be/YmIL1JK67EQ "behaviour main")
 
