@@ -264,11 +264,8 @@ In a real implementation, we have the opportunity to debug our algorithms and ca
 
 After successfully completing all the preceding steps, we conducted the final test of our algorithms. The Rosbot2 robot navigated smoothly in the environment, exhibiting the expected behaviors based on our algorithms. The robot successfully accomplished its task.
 
-<p align="center">
-<video width="900" height="500" autoplay loop controls>
-  <source src="resources/real_test.mp4" type="video/mp4">
-</p>
-https://github.com/SaeidAbdollahi/Experimental-Robotics/blob/main/resources/real_test.mp4
+[![real test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a6d74fd0-b512-4bdd-8b4f-92605def22e2)](https://youtu.be/gFV2UVKJbjI "real test")
+
 
 <a name="PART-6-The-Suggestion-for-Improvment"></a>
     
@@ -303,7 +300,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 [![behaviour_move](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/ebed5e14-9761-4908-afc4-d9843224330b)](https://youtu.be/bx6J2JIGbF4 "behaviour move")
 [![behaviour_search](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/ecc704f3-3786-4041-8592-04642f246478)](https://youtu.be/Yhstwp6Lm2E "behaviour search")
 [![code_debug](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/d31977f5-7174-4dd6-9ae6-26fae3f71f71)](https://youtu.be/g3jweVqVL4E "Code debug")
-[![real test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a6d74fd0-b512-4bdd-8b4f-92605def22e2)](https://youtu.be/gFV2UVKJbjI"real test")
 
 
 
