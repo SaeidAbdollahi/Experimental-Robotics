@@ -239,7 +239,7 @@ After successfully completing all the preceding steps, we conducted the final te
 
 
 ▶ Click here to watch the video:
-[![real final test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/e2e3bdcc-649e-452e-8c3a-d5092940a955)](https://youtu.be/gFV2UVKJbjI "real test")
+[![1](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/97a28972-0d40-42de-a01a-7ac1a6b4600f)](https://youtu.be/gFV2UVKJbjI "real test")
 
 <a name="PART-6-The-Suggestion-for-Improvment"></a>
 ## PART 6-Suggestions for Improvment
