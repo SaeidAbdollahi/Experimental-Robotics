@@ -4,7 +4,7 @@ This marks the inaugural assignment of the Experimental Robotics course in the R
 
 ## Table of Contents
 
-1. [Assignment Description](#marker-detection-using-rosbot2-and-opencv)
+1. [Assignment Description](#Assignment-Description)
 2. [PART 1-The Implemented Algorithm](#1-robot-modelling-urdf-and-xacro)
     - [1-The Search Behaviour](#xacro-arguments-and-properties)
     - [2-The Move to the Marker Behavior](#materials-definition)
@@ -30,6 +30,7 @@ This marks the inaugural assignment of the Experimental Robotics course in the R
 8. [Group Members](#installation)
 9. [License](#installation)
 
+<a name="Assignment-Description"></a>
 ## Assignment Description
 
 The Rosbot2 robot is tasked with accomplishing its mission, which involves locating a sequence of markers within the environment.
