@@ -229,10 +229,10 @@ In a real implementation, we have the opportunity to debug our algorithms and ca
 
 After successfully completing all the preceding steps, we conducted the final test of our algorithms. The Rosbot2 robot navigated smoothly in the environment, exhibiting the expected behaviors based on our algorithms. The robot successfully accomplished its task.
 
+<p align="center">
 
-
-<iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1YLYZPhHJe7DK34a40Tl2FuHS0GCThdDq/preview" ></iframe>
-
+![Alt text](https://drive.google.com/file/d/1YLYZPhHJe7DK34a40Tl2FuHS0GCThdDq/preview)
+</p>
 
 
 
