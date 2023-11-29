@@ -300,5 +300,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
  
 
- [![![sim test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/4838ead6-be96-4b09-9b99-b314cc431bba)](https://img.youtube.com/vi/[YOUTUBE_VIDEO_ID_HERE](https://youtu.be/3Vk3hmGav4U)/0.jpg)](https://www.youtube.com/watch?v=[YOUTUBE_VIDEO_ID_HERE](https://youtu.be/3Vk3hmGav4U)https://youtu.be/3Vk3hmGav4U)
+ 
+[![sim test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/cea53fbd-2e46-4dd7-a6ce-62171efd82f5)](https://youtu.be/3Vk3hmGav4U "Aruco real test")
 
