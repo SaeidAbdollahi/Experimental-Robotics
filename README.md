@@ -300,4 +300,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 [![aruco_test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/89dd70ef-6fb9-4dbb-887c-2e8ec1948ee3)](https://youtu.be/oVlfOrViIAM "aruco test")
 [![behaviour_adjustment](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/65545720-6e4d-4621-8d98-0ae70c9a49a4)](https://youtu.be/b3NSfceo-vQ "behaviour adjustment")
 [![behaviour_main](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a56cc72e-0b9d-4d23-9fd9-726ccf4d11cb)](https://youtu.be/YmIL1JK67EQ "behaviour main")
+[![behaviour_move](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/ebed5e14-9761-4908-afc4-d9843224330b)](https://youtu.be/bx6J2JIGbF4 "behaviour move")
+[![behaviour_search](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/ecc704f3-3786-4041-8592-04642f246478)](https://youtu.be/Yhstwp6Lm2E "behaviour search")
+[![code_debug](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/d31977f5-7174-4dd6-9ae6-26fae3f71f71)](https://youtu.be/g3jweVqVL4E "Code debug")
+[![real test](https://github.com/SaeidAbdollahi/Experimental-Robotics/assets/94115975/a6d74fd0-b512-4bdd-8b4f-92605def22e2)](https://youtu.be/gFV2UVKJbjI"real test")
+
+
 
