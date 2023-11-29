@@ -107,7 +107,7 @@ The image below illustrates the rqt graph of the robot's software, displaying al
 <img src="resources/rqt.png" width="900" height="600" />
 </p>
 
-<a name="ROBOT-LOGIC-NODE"></a>
+<a name="1-ROBOT-LOGIC-NODE"></a>
 
 - **1- ROBOT LOGIC NODE:**
 
@@ -145,7 +145,7 @@ The ArUco Marker Publisher Node is tasked with identifying ArUco markers in inco
 
 <a name="3-Custom-Message"></a>
 
-- **Custom Message:**
+- **3- Custom Message:**
 
 `exp_assignment1::MarkerInfo:` This message includes crucial information such as the marker ID, marker size, x and y coordinates of the detected marker in the image, as well as the width and height of the image captured by the sensor. This data is essential for the robot logic node to effectively navigate and interact with specific markers in its environment.
 
