@@ -1,4 +1,4 @@
-# Exprimental Robotics Course-Assignmet 1
+# Exprimental Robotics Course-Assignmet 1 
 
 This marks the inaugural assignment of the Experimental Robotics course in the Robotics Engineering program at the University of Genoa. The primary objectives of this assignment include acquiring fundamental knowledge of robot geometric modeling using URDF, utilizing various sensors and plugins for simulating the robot in the Gazebo environment, grasping the basics of task image processing with OpenCV, incorporating external packages such as ArUco into our project, understanding the fundamentals of task planning, implementing behavior-based algorithms for a robot, and engaging in practical sessions to work with the real robot, Rosbot2.
 
